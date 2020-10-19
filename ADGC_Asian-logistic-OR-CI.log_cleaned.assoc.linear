@@ -1,0 +1,33 @@
+PLINK	v1.90b6.4	64-bit	
+Options	in	effect:	
+--allow-no-sex			
+--bfile	ALL_Cohorts_MERGED_FINAL		
+--ci	0.95		
+--covar	ADGC_Asian.covars		
+--covar-name	Sex		
+--keep	ADGC_Asian.IDList		
+--logistic	hide-covar		
+--memory	100000		
+--out	ADGC_Asian-logistic-OR-CI		
+--pheno	ADGC_Asian.covars		
+--pheno-name	CACO		
+--threads	12		
+			
+Hostname:	fenix.psych.wucon.wustl.edu		
+Working	directory:	/40/AD/GWAS_data/Source_Plink/2020_ADGC_EOAD/Achal_ADGC_EOAD-analyses	
+Start	time:	Wed	
+			
+Random	number	seed:	
+9536034	variants	loaded	
+Ambiguous	sex	IDs	
+286	phenotype	values	
+--keep:	309	people	
+Using	1	thread	
+--covar:	1	out	
+Calculating	allele	frequencies...	
+Total	genotyping	rate	
+are	missing.)		
+Writing	logistic	model	
+ADGC_Asian-logistic-OR-CI.assoc.logistic	...	done.	
+			
+End	time:	Wed	

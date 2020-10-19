@@ -1,0 +1,38 @@
+PLINK v1.90b6.4 64-bit (7 Aug 2018)
+Options in effect:
+  --allow-no-sex
+  --bfile ALL_Cohorts_MERGED_FINAL
+  --ci 0.95
+  --covar ADGC_Hispanic.covars
+  --covar-name Sex
+  --keep ADGC_Hispanic.IDlist
+  --logistic hide-covar
+  --memory 100000
+  --out ADGC_Hispanic-logistic-OR-CI
+  --pheno ADGC_Hispanic.covars
+  --pheno-name CACO
+  --threads 12
+
+Hostname: fenix.psych.wucon.wustl.edu
+Working directory: /40/AD/GWAS_data/Source_Plink/2020_ADGC_EOAD/Achal_ADGC_EOAD-analyses
+Start time: Wed Oct 14 12:00:24 2020
+
+Random number seed: 1602694824
+773748 MB RAM detected; reserving 100000 MB for main workspace.
+9536034 variants loaded from .bim file.
+19125 people (0 males, 0 females, 19125 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ADGC_Hispanic-logistic-OR-CI.nosex .
+579 phenotype values present after --pheno.
+--keep: 662 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 1 out of 3 covariates loaded.
+Before main variant filters, 662 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.993824.
+9536034 variants and 662 people pass filters and QC.
+Among remaining phenotypes, 417 are cases and 162 are controls.  (83 phenotypes
+are missing.)
+Writing logistic model association results to
+ADGC_Hispanic-logistic-OR-CI.assoc.logistic ... done.
+
+End time: Wed Oct 14 12:03:47 2020
